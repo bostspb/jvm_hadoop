@@ -47,7 +47,7 @@ Cкачиваем [докер-файлы](https://drive.google.com/drive/folders
     cat: Unable to write to output stream.
 
 ### Собираем приложение WordCount
-Создаем [проект MapReduce]() со сборщиком Gradle и создаем там приложение WordCount на основе исходников с урока.
+Создаем [проект MapReduce](https://github.com/bostspb/jvm_hadoop/blob/master/lesson01/MapReduce/src/main/java/WordCount.java) со сборщиком Gradle и создаем там приложение WordCount на основе исходников с урока.
 
 Подтягиваем зависимости в Gradle и запускаем сборку:
 
@@ -113,7 +113,7 @@ Cкачиваем [докер-файлы](https://drive.google.com/drive/folders
 ### Собираем приложение *WordCount* на Scala
 Устанавливаем в IDE плагин Scala.
 
-Портируем приложение WordCount с Java [на Scala]() на основе исходников с урока и подтягиваем зависимости.
+Портируем приложение WordCount с Java [на Scala](https://github.com/bostspb/jvm_hadoop/blob/master/lesson01/ScalaMapReduce/src/main/scala/ScalaMapReduce.scala) на основе исходников с урока и подтягиваем зависимости.
 
 Изменяем маппер, чтобы он удалял знаки препинания и приводил все слова к нижнему регистру.
 
@@ -136,8 +136,7 @@ Cкачиваем [докер-файлы](https://drive.google.com/drive/folders
     -rw-r--r--   1 hduser supergroup      49465 2021-09-29 07:01 /user/hduser/ppkm_swap/part-r-00001
     
     hduser@localhost:~$ hdfs dfs -cat /user/hduser/ppkm_swap/part-r-00001 | head
-    *padahal        1
-    *padahal        1
+    *padahal        2
     -_-     1
     09032021        1
     101     1
@@ -146,9 +145,5 @@ Cкачиваем [докер-файлы](https://drive.google.com/drive/folders
     14jt    1
     19kamis 1
     2019madiuninfo  1
+    2021    16
     cat: Unable to write to output stream.
-
-Как видим, результат печальный - суммирование слов не отработало
-
-
-hdfs dfs -rm /user/hduser/ppkm_out/*

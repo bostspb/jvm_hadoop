@@ -39,12 +39,9 @@ object ScalaMapReduce extends Configured with Tool {
 class IntSumReducer extends Reducer[Text, IntWritable, Text, IntWritable] {
   val result = new IntWritable
 
-  //override
-  def reduce(key: Text, values: Iterable[IntWritable], context: Reducer[Text, IntWritable, Text, IntWritable]#Context): Unit = {
+  override def reduce(key: Text, values:  java.lang.Iterable[IntWritable], context: Reducer[Text, IntWritable, Text, IntWritable]#Context): Unit = {
     var sum = 0
-    for (value <- values) {
-      sum += value.get
-    }
+    values.forEach(value => sum += value.get())
     result.set(sum)
     context.write(key, result)
   }
