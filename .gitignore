@@ -1,0 +1,13 @@
+.idea/
+/lesson01/MapReduce/.gradle
+/lesson01/MapReduce/gradle
+/lesson01/MapReduce/build
+/lesson01/MapReduce/gradlew
+/lesson01/MapReduce/gradlew.bat
+/lesson01/MapReduce/settings.gradle
+/lesson01/ScalaMapReduce/.bsp
+/lesson01/ScalaMapReduce/target
+/lesson01/ScalaMapReduce/project/target
+/lesson01/ScalaMapReduce/project/project
+
+/lesson01/ScalaMapReduce/project/build.properties
