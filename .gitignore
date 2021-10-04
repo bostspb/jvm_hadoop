@@ -10,3 +10,15 @@
 /lesson01/ScalaMapReduce/project/target
 /lesson01/ScalaMapReduce/project/project
 /lesson01/ScalaMapReduce/project/build.properties
+
+/lesson02/SparkRDD/.gradle
+/lesson02/SparkRDD/gradle
+/lesson02/SparkRDD/build
+/lesson02/SparkRDD/gradlew
+/lesson02/SparkRDD/gradlew.bat
+/lesson02/SparkRDD/settings.gradle
+/lesson02/ScalaSparkRDD/.bsp
+/lesson02/ScalaSparkRDD/target
+/lesson02/ScalaSparkRDD/project/target
+/lesson02/ScalaSparkRDD/project/project
+/lesson02/ScalaSparkRDD/project/build.properties
