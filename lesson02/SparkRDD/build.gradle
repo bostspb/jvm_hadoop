@@ -1,0 +1,16 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(8)
+
+dependencies {
+    compileOnly "org.apache.spark:spark-core_2.11:2.4.8" // смотрим, какая версия Scala в джарниках Spark'а на сервере
+}
