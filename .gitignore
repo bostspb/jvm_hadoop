@@ -22,3 +22,15 @@
 /lesson02/ScalaSparkRDD/project/target
 /lesson02/ScalaSparkRDD/project/project
 /lesson02/ScalaSparkRDD/project/build.properties
+
+/lesson03/SparkDF/.gradle
+/lesson03/SparkDF/gradle
+/lesson03/SparkDF/build
+/lesson03/SparkDF/gradlew
+/lesson03/SparkDF/gradlew.bat
+/lesson03/SparkDF/settings.gradle
+/lesson03/SparkDFScala/.bsp
+/lesson03/SparkDFScala/target
+/lesson03/SparkDFScala/project/target
+/lesson03/SparkDFScala/project/project
+/lesson03/SparkDFScala/project/build.properties
