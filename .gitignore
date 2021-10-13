@@ -34,3 +34,9 @@
 /lesson03/SparkDFScala/project/target
 /lesson03/SparkDFScala/project/project
 /lesson03/SparkDFScala/project/build.properties
+
+/lesson04/MLSentimentAnalysis/.bsp
+/lesson04/MLSentimentAnalysis/target
+/lesson04/MLSentimentAnalysis/project/target
+/lesson04/MLSentimentAnalysis/project/project
+/lesson04/MLSentimentAnalysis/project/build.properties
